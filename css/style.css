@@ -1,0 +1,174 @@
+* {
+ margin: 0 ;
+ padding: 0;
+}
+
+@media screen and (min-width: 100px) and (max-width: 768.9px) {
+ body {
+  background-color: #f8ca66;
+  width: 92vw;
+ }
+
+ .logo {
+  height: 10vh;
+ }
+
+ .item-koptekst {
+  display: none;
+ }
+ .item-koptekst-mobile {
+  color: #16a352;
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align: center;
+  font-size: 1rem;
+ }
+
+ .item-menu {
+  display: none;
+ }
+
+ .item-subtekst {
+  position: relative;
+  top: 2vh;
+  padding-left: 3vw;
+ }
+ .item-subtekst h1 {
+  color: black;
+  font-family: 'Cinzel', serif;
+ }
+ .item-subtekst p {
+  font-family: 'Cinzel', serif;
+ }
+ 
+ .img-mobile-home {
+  position: absolute;
+  top: 58vh;
+  width: 100vw;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  
+ }
+
+ .item-subtekst-2 {
+  font-family: 'Cinzel', serif;
+  position: relative;
+  top: 37vh;
+  padding-left: 5vw;
+ }
+ .item-subtekst-2 p {
+  font-size: 0.8rem;
+ }
+}
+
+@media screen and (min-width: 769px) {
+ body {background-color: #f8ca66;
+ }
+
+ .logo {
+  height: 15vh;
+  left: 3vw;
+  top: 2vh;
+ }
+ 
+ .item-koptekst {
+  color: #16a352;
+  position: absolute;
+  width: 100vw;
+  text-align: center;
+  top: 1vh;
+  background: none;
+  font-size: 2rem;
+  font-family: 'Gloria Hallelujah', cursive;
+ }
+ .item-koptekst-mobile {
+  display: none;
+ }
+
+ .item-menu {
+  list-style: none;
+  position: absolute;
+  left: 23vw;
+  top: 9vh;
+ }
+ .item-menu a {
+  padding-right: 7vw;
+  text-decoration: none;
+  color: #f13a32;
+  font-size: 1.3rem;
+  font-family: 'Cinzel', serif;
+ }
+ .item-menu a:hover {
+  transition: 0.5s;
+  color: black;
+ }
+ 
+ 
+ 
+ .item-subtekst {
+  width: 40vw;
+  padding-right: 5vw;
+  position: absolute;
+  left: 10vw;
+  top: 18vh;
+  font-family: 'Cinzel', serif;
+ }
+ .item-subtekst h1 {
+  color: #16a352;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 1.8rem;
+ }
+ .item-subtekst p {
+  color: black;
+  font-size: 1.2rem;
+ }
+ 
+ .item-subtekst-2 h1 {
+  color: #16a352;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 1.8rem;
+  position: absolute;
+  left: 52vw;
+  top: 56vh;
+ }
+ .item-subtekst-2 ul {
+  font-family: 'Cinzel', serif;
+  color: black;
+  font-size: 1.1rem;
+  position: absolute;
+  left: 53vw;
+  top: 63vh;
+ }
+ .item-subtekst-2 p {
+  font-family: 'Cinzel', serif;
+  color: black;
+  font-size: 1.2rem;
+  position: absolute;
+  width: 37vw;
+  left: 53vw;
+  top: 77vh;
+ }
+ 
+ .item-home-foto1 {
+  width: 40vw;
+  position: absolute;
+  left: 50vw;
+  top: 18vh;
+  height: 38vh;
+  background-size: cover;
+  border: 2px solid black;
+  background-image: url(../img/Aztec\ Casita\ Home\ img.jpg);
+ }
+ .item-home-foto2 {
+  width: 40vw;
+  position: absolute;
+  left: 9.7vw;
+  top: 56.5vh;
+  height: 38vh;
+  background-size: cover;
+  border: 2px solid black;
+  background-image: url(../img/cocktails-homepage.jpg);
+ }
+ .img-mobile-home {
+  display: none;
+ }
+}

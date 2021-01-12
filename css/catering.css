@@ -1,0 +1,62 @@
+@media screen and (min-width: 100px) and (max-width: 768.9px) {
+ #non-mobile {
+  display: none;
+ }
+}
+
+@media screen and (min-width: 769px) {
+ .subtekst-catering p {
+  width: 35vw;
+  padding-left: 10vw;
+  padding-top: 3vh;
+  font-family: 'Cinzel', serif;
+  font-size: 1.2rem;
+ }
+ 
+ .item-foto-catering-1 {
+  width: 40vw;
+  position: absolute;
+  left: 50vw;
+  top: 18vh;
+  height: 38vh;
+  background-size: cover;
+  border: 2px solid black;
+  background-image: url(../img/mexican-catering.jpg);
+ }
+ .item-foto-catering-2 {
+  width: 40vw;
+  position: absolute;
+  left: 50vw;
+  top: 63vh;
+  height: 15vh;
+  background-size: cover;
+  border: 2px solid black;
+  background-image: url(../img/mexican-catering-2.png);
+ }
+ 
+ tr, td, table {
+  display: block;
+  padding: .2rem;
+ }
+
+ form {
+  width: 82vw;
+  margin: 0 auto;
+ }
+
+ input {
+  width: 35vw;
+  font-size: 1rem;
+  font-family: 'Cinzel', serif;
+  height: 5vh;
+  text-align: center;
+ }
+
+ .catering-detail {
+  height: 15vh;
+ }
+
+ .submit-button {
+  width: 35.5vw;
+ }
+}
