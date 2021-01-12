@@ -10,13 +10,38 @@
  <link rel="stylesheet" href="css/contact.css">
  <link rel="stylesheet" href="css/foto.css">
  <link rel="stylesheet" href="css/menu.css">
- <title>Aztec Casita Home</title>
- 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  <link rel="preconnect" href="https://fonts.gstatic.com">
  <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet"> 
  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+ <title>Aztec Casita Home</title>
 </head>
 <body>
+
+ <article class="dropdown-nav">
+  <article id="myLinks">
+   <a href="menu.html">Menu</a><br>
+   <a href="aboutUs.html">Over Ons</a><br>
+   <a href="catering.html">Catering</a><br>
+   <a href="fotogallerij.html">Foto's</a><br>
+   <a href="contact.html">Contact</a>
+  </article>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+   <i class="fa fa-bars"></i>
+  </a>
+ </article>
+
+ <script>
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+ </script>
+
  <section id="header">
   <article>
    <img class="logo" src="img/Groep1. aztec-casita-logo.png" alt="foto van logo aztec casita">

@@ -9,6 +9,34 @@
   width: 92vw;
  }
 
+ #myLinks {
+  display: none;
+ }
+
+ #myLinks a {
+  margin-left: 70vw;
+  position: relative;
+  top: 10vh;
+  font-size: 1.2rem;
+ }
+ .fa-bars {
+  color: black;
+ }
+
+ .dropdown-nav a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+ }
+
+ .dropdown-nav a.icon {
+  background: #f8ca66;
+  display: block;
+  position: absolute;
+  right: 6vw;
+  top: 2.5vh;
+}
+
  .logo {
   height: 10vh;
  }
@@ -169,6 +197,10 @@
   background-image: url(../img/cocktails-homepage.jpg);
  }
  .img-mobile-home {
+  display: none;
+ }
+
+ .dropdown-nav {
   display: none;
  }
 }
