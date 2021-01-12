@@ -11,13 +11,15 @@
 
  #myLinks {
   display: none;
+  width: 100vw;
+  background-color: white;
  }
 
  #myLinks a {
-  margin-left: 70vw;
+  margin-left: 65vw;
   position: relative;
-  top: 10vh;
   font-size: 1.2rem;
+  font-family: 'Cinzel', serif;
  }
  .fa-bars {
   color: black;
