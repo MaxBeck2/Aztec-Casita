@@ -2,6 +2,7 @@
  #non-mobile {
   display: none;
  }
+
 }
 
 @media screen and (min-width: 769px) {
@@ -53,10 +54,17 @@
  }
 
  .catering-detail {
-  height: 15vh;
+  height: 25.5vh;
+  width: 39.8vw;
  }
 
  .submit-button {
-  width: 35.5vw;
+  width: 40.5vw;
+ }
+
+ .submit-item {
+  position: absolute;
+  left: 49.2vw;
+  top: 79.5vh;
  }
 }
